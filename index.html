@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>protfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    <!-- nav -->
+    <nav>
+      <div class="logo">[ WEB PORTFOLO ]</div>
+      <ul class="nav-links">
+        <li><a href="#main">MAIN</a></li>
+        <!-- <li><a href="#about">ABOUT</a></li> -->
+        <li><a href="#projects">PROJECTS</a></li>
+        <!-- <li><a href="#contact">CONTACT</a></li> -->
+      </ul>
+    </nav>
+    <!-- //nav -->
+    <!-- hero -->
+    <section id="main" class="hero">
+      <h1>
+        EC WEB
+        <span>PORTFOLO</span>
+      </h1>
+      <div class="marquee-strip">
+        <div class="marquee-inner">
+          <span>React</span><span class="dot">✦</span> <span>TypeScript</span
+          ><span class="dot">✦</span> <span class="dot">✦</span>
+          <span>Tailwind CSS</span><span class="dot">✦</span> <span>Vue3</span
+          ><span class="dot">✦</span> <span>SCSS</span
+          ><span class="dot">✦</span> <span>CSS Animation</span
+          ><span class="dot">✦</span>
+          <!-- duplicate for seamless loop -->
+          <span>React</span><span class="dot">✦</span> <span>TypeScript</span
+          ><span class="dot">✦</span> <span class="dot">✦</span>
+          <span>Tailwind CSS</span><span class="dot">✦</span> <span>Vue3</span
+          ><span class="dot">✦</span> <span>SCSS</span
+          ><span class="dot">✦</span> <span>CSS Animation</span
+          ><span class="dot">✦</span>
+        </div>
+      </div>
+    </section>
+    <!-- //hero -->
+    <!-- projects -->
+    <section id="projects">
+      <div class="section-header reveal">
+        <div>
+          <div class="section-label">CLONE CODING</div>
+          <h2 class="section-title">PROJECTS</h2>
+        </div>
+        <div class="section-count">04</div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <a
+          class="project-card reveal"
+          href="https://b3lla0.github.io/naver-clone/"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="card-top">
+            <div class="card-title">Naver</div>
+            <div class="card-tech">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <p class="card-desc">Standard&Accessibility Web</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-link">
+              VIEW MORE
+              <svg
+                viewBox="0 0 12 12"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M1 11 11 1M4 1h7v7" />
+              </svg>
+            </span>
+            <div class="card-arrow">
+              <svg
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                color="white"
+              >
+                <path d="M1 15 15 1M6 1h9v9" />
+              </svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 2 -->
+        <a
+          class="project-card reveal"
+          href="https://b3lla0.github.io/starbucks-clone/"
+          target="_blank"
+          rel="noopener"
+          style="animation-delay: 0.1s"
+        >
+          <div class="card-top">
+            <div class="card-number">PROJECT — 02</div>
+            <div class="card-title">Starbucks</div>
+            <div class="card-tech">
+              <span class="tag">Next.js</span>
+              <span class="tag">Zustand</span>
+              <span class="tag">CSS Modules</span>
+            </div>
+            <p class="card-desc">Responsive Web site</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-link">
+              VIEW MORE
+              <svg
+                viewBox="0 0 12 12"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M1 11 11 1M4 1h7v7" />
+              </svg>
+            </span>
+            <div class="card-arrow">
+              <svg
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                color="white"
+              >
+                <path d="M1 15 15 1M6 1h9v9" />
+              </svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 3 -->
+        <a
+          class="project-card reveal"
+          href="https://b3lla0.github.io/soorim-clone/#/"
+          target="_blank"
+          rel="noopener"
+          style="animation-delay: 0.2s"
+        >
+          <div class="card-top">
+            <div class="card-number">PROJECT — 03</div>
+            <div class="card-title">SOORIM</div>
+            <div class="card-tech">
+              <span class="tag">Vue3</span>
+              <span class="tag">SCSS</span>
+              <span class="tag">TypeScript</span>
+            </div>
+            <p class="card-desc">Responsive Web Vue.js</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-link">
+              VIEW MORE
+              <svg
+                viewBox="0 0 12 12"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M1 11 11 1M4 1h7v7" />
+              </svg>
+            </span>
+            <div class="card-arrow">
+              <svg
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                color="white"
+              >
+                <path d="M1 15 15 1M6 1h9v9" />
+              </svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Project 4 -->
+        <a
+          class="project-card reveal"
+          href="https://sujin94k05.github.io/Kakao_react/#/"
+          target="_blank"
+          rel="noopener"
+          style="animation-delay: 0.3s"
+        >
+          <div class="card-top">
+            <div class="card-number">PROJECT — 04</div>
+            <div class="card-title">KAKAO</div>
+            <div class="card-tech">
+              <span class="tag">React</span>
+              <span class="tag">hook</span>
+            </div>
+            <p class="card-desc">Kakao React</p>
+          </div>
+          <div class="card-bottom">
+            <span class="card-link">
+              VIEW MORE
+              <svg
+                viewBox="0 0 12 12"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M1 11 11 1M4 1h7v7" />
+              </svg>
+            </span>
+            <div class="card-arrow">
+              <svg
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                color="white"
+              >
+                <path d="M1 15 15 1M6 1h9v9" />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- //projects -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
